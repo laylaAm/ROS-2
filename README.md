@@ -52,11 +52,9 @@ $source devel/setup.bash
 $export TURTLEBOT3_MODEL=waffle_pi
 $roslunch turtlebot3_gazebo turtlebot3_world.lunch
 ```
-![saml1 (2)](https://github.com/laylaAm/ROS-2/assets/139586277/2461c7f6-fe17-4335-b0a2-455fda7e34fd)
-
-
 ![saml1 (1)](https://github.com/laylaAm/ROS-2/assets/139586277/78fa43b6-af70-4d56-a7dd-8439538b6a9d)
 
+![saml1 (2)](https://github.com/laylaAm/ROS-2/assets/139586277/2461c7f6-fe17-4335-b0a2-455fda7e34fd)
 
 # Execute SLAM 
 In this case, we use gmapping that is general slam package.
@@ -110,5 +108,4 @@ $source devel/setup.bash
 $export TURTLEBOT3_MODEL=waffle_pi
 $roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 ```
-
 ![Salm3](https://github.com/laylaAm/ROS-2/assets/139586277/601b12a3-d775-4cf2-8fbe-dd8530c4ff58)
