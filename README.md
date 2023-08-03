@@ -52,9 +52,9 @@ $source devel/setup.bash
 $export TURTLEBOT3_MODEL=waffle_pi
 $roslunch turtlebot3_gazebo turtlebot3_world.lunch
 ```
-![saml1 (1)](https://github.com/laylaAm/ROS-2/assets/139586277/78fa43b6-af70-4d56-a7dd-8439538b6a9d)
+![saml1 (1)](https://github.com/laylaAm/ROS-2/assets/139586277/a136f6cd-be85-408f-9780-fe01d7715d21)
 
-![saml1 (2)](https://github.com/laylaAm/ROS-2/assets/139586277/2461c7f6-fe17-4335-b0a2-455fda7e34fd)
+![saml1 (2)](https://github.com/laylaAm/ROS-2/assets/139586277/706da746-9f98-45a9-acdc-e7cda94cba6c)
 
 # Execute SLAM 
 In this case, we use gmapping that is general slam package.
@@ -68,7 +68,7 @@ $export TURTLEBOT3_MODEL=waffle_pi
 $roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 ```
 
-![saml2](https://github.com/laylaAm/ROS-2/assets/139586277/a46890bc-157a-4b9d-ac2f-a20070062992)
+![saml2](https://github.com/laylaAm/ROS-2/assets/139586277/0b1d8361-c79c-4032-9b33-6fbfa503ec24)
 
 # Execute keypad
 
@@ -108,4 +108,4 @@ $source devel/setup.bash
 $export TURTLEBOT3_MODEL=waffle_pi
 $roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 ```
-![Salm3](https://github.com/laylaAm/ROS-2/assets/139586277/601b12a3-d775-4cf2-8fbe-dd8530c4ff58)
+![Salm3](https://github.com/laylaAm/ROS-2/assets/139586277/b5100a8c-0229-49e8-aecd-a26d703f9111)
